@@ -2,9 +2,9 @@
   "name": "maildrop-api",
   "version": "1.0.0",
   "description": "Wrapper around maildrop API",
-  "main": "index.js",
+  "main": "src/maildrop.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/xrajishx/maildrop-api/issues"
   },
-  "homepage": "https://github.com/xrajishx/maildrop-api#readme"
+  "homepage": "https://github.com/xrajishx/maildrop-api#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.5.0"
+  }
 }
