@@ -1,0 +1,22 @@
+{
+  "name": "maildrop-api",
+  "version": "1.0.0",
+  "description": "Wrapper around maildrop API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrajishx/maildrop-api.git"
+  },
+  "keywords": [
+    "maildrop"
+  ],
+  "author": "Rajish Vijayan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xrajishx/maildrop-api/issues"
+  },
+  "homepage": "https://github.com/xrajishx/maildrop-api#readme"
+}
