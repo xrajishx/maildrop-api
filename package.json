@@ -1,14 +1,16 @@
 {
   "name": "maildrop-api",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Wrapper around maildrop.cc API",
   "main": "src/maildrop.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha"
+    "commit": "git-cz",
+    "test": "node node_modules/mocha/bin/mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xrajishx/maildrop-api.git"
+    "url": "https://github.com/xrajishx/maildrop-api.git"
   },
   "keywords": [
     "maildrop"
@@ -28,6 +30,12 @@
   "devDependencies": {
     "chai": "4.1.1",
     "chai-as-promised": "7.1.1",
-    "mocha": "3.5.0"
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "mocha": "3.5.0",
+    "semantic-release": "7.0.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
