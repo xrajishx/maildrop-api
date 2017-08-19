@@ -1,5 +1,11 @@
 # maildrop-api
 Wrapper module around [maildrop.cc](http://maildrop.cc) API.
+
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/maildrop-api)
+[![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/xrajishx/maildrop-api)
+[![Coverage Status](https://coveralls.io/repos/github/xrajishx/maildrop-api/badge.svg)](https://coveralls.io/github/xrajishx/maildrop-api)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xrajishx/maildrop-api/master/LICENSE)
+
 ### Installation
 ```bash
 npm install maildrop-api
