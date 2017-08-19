@@ -1,7 +1,7 @@
 const request = require('request');
 var exports = module.exports = {};
 
-const baseUrl = process.env.MAILDROP_URL || 'http://maildrop.cc';
+const baseUrl = process.env.MAILDROP_URL || 'https://maildrop.cc';
 
 exports.suggestion = () => {
   return new Promise((resolve, reject) => {

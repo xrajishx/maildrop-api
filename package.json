@@ -1,7 +1,7 @@
 {
   "name": "maildrop-api",
   "version": "1.0.0",
-  "description": "Wrapper around maildrop API",
+  "description": "Wrapper around maildrop.cc API",
   "main": "src/maildrop.js",
   "scripts": {
     "test": "node node_modules/mocha/bin/mocha"
@@ -13,18 +13,21 @@
   "keywords": [
     "maildrop"
   ],
-  "author": "Rajish Vijayan",
+  "author": {
+    "name": "Rajish Vijayan",
+    "email": "rajishav16@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xrajishx/maildrop-api/issues"
   },
   "homepage": "https://github.com/xrajishx/maildrop-api#readme",
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "2.81.0"
   },
   "devDependencies": {
-    "chai": "^4.1.1",
-    "chai-as-promised": "^7.1.1",
-    "mocha": "^3.5.0"
+    "chai": "4.1.1",
+    "chai-as-promised": "7.1.1",
+    "mocha": "3.5.0"
   }
 }

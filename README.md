@@ -1,19 +1,11 @@
 # maildrop-api
-
-This module is a wrapper around [maildrop.cc](http://maildrop.cc) API.
-
-#### Installation
-
-* Download and install nodejs from [here](https://nodejs.org/en/download/).
-
-* Clone the project.
-
+Wrapper module around [maildrop.cc](http://maildrop.cc) API.
+### Development
+###### Clone the project.
 ```bash
-git clone https://github.com/xrajishx/maildrop-api.git
+git clone https://github.com/xrajishx/maildrop-api.git && cd maildrop-api
 ```
-
-* Go into the project directory where the ``package.json`` file resides and run the following to install dependencies.
-
+###### Install dependencies.
 ```bash
 npm install
 ```

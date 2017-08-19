@@ -7,52 +7,52 @@ const maildrop = require(path.join(__dirname, '..', 'src', 'maildrop'));
 chai.use(chaiAsPromised);
 chai.should();
 
-const mailBox = 'f';
+const mailBox = 'john';
 
-describe('suggestion()', function() {
-  it('should return without error', function() {
+describe('suggestion()', () => {
+  it('should return without error', () => {
     return maildrop.suggestion().should.eventually.be.fulfilled;
   });
 });
 
-describe('blocked()', function() {
-  it('should return without error', function() {
+describe('blocked()', () => {
+  it('should return without error', () => {
     return maildrop.blocked().should.eventually.be.fulfilled;
   });
 });
 
-describe('getInbox(mailBox)', function() {
-  it('should be fulfilled without error', function() {
+describe('getInbox(mailBox)', () => {
+  it('should be fulfilled without error', () => {
     return maildrop.getInbox(mailBox).should.eventually.be.fulfilled;
   });
 });
 
-describe('getInbox()', function() {
-  it('should be rejected with error', function() {
+describe('getInbox()', () => {
+  it('should be rejected with error', () => {
     return maildrop.getInbox().should.eventually.be.rejected;
   });
 });
 
-describe('getEmail(mailBox, mailBox)', function() {
-  it('should be fulfilled without error', function() {
+describe('getEmail(mailBox, mailBox)', () => {
+  it('should be fulfilled without error', () => {
     return maildrop.getEmail(mailBox, mailBox).should.eventually.be.fulfilled;
   });
 });
 
-describe('getEmail()', function() {
-  it('should be rejected with error', function() {
+describe('getEmail()', () => {
+  it('should be rejected with error', () => {
     return maildrop.getEmail().should.eventually.be.rejected;
   });
 });
 
-describe('deleteEmail(mailBox, mailBox)', function() {
-  it('should be fulfilled without error', function() {
+describe('deleteEmail(mailBox, mailBox)', () => {
+  it('should be fulfilled without error', () => {
     return maildrop.deleteEmail(mailBox, mailBox).should.eventually.be.fulfilled;
   });
 });
 
-describe('deleteEmail()', function() {
-  it('should be rejected with error', function() {
+describe('deleteEmail()', () => {
+  it('should be rejected with error', () => {
     return maildrop.deleteEmail().should.eventually.be.rejected;
   });
 });
