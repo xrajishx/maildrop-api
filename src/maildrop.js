@@ -81,8 +81,7 @@ exports.deleteEmail = (mailBox, emailId) => {
       method: 'DELETE',
       url: baseUrl + '/api/inbox/' + mailBox + '/' + emailId,
       json: true,
-      headers: { 'cache-control': 'no-cache' },
-      followRedirect: true
+      headers: { 'cache-control': 'no-cache' }
     };
 
     request(options, (error, response, body) => {
