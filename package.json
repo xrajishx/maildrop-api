@@ -5,7 +5,7 @@
   "main": "src/maildrop.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "nyc mocha",
+    "test": "standard && nyc mocha",
     "test-ci": "nyc mocha && nyc report --reporter=text-lcov | coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -41,7 +41,8 @@
     "mocha": "^5.0.0",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^12.4.1"
+    "semantic-release": "^12.4.1",
+    "standard": "^10.0.3"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
