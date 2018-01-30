@@ -8,11 +8,13 @@ Wrapper module around [maildrop.cc](http://maildrop.cc) API.
 [![devDependencies Status](https://david-dm.org/xrajishx/maildrop-api/dev-status.svg)](https://david-dm.org/xrajishx/maildrop-api?type=dev)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xrajishx/maildrop-api/master/LICENSE)
 
 ### Installation
+
 ```bash
-npm install maildrop-api
+yarn add maildrop-api
 ```
 ### Usage
 ```javascript
@@ -51,9 +53,9 @@ Clone the project and install dependencies:
 ```bash
 $ git clone https://github.com/xrajishx/maildrop-api.git
 $ cd maildrop-api
-$ npm install
+$ yarn
 ```
-Test:
+### Test
 ```bash
-$ npm test
+$ yarn test
 ```
