@@ -1,5 +1,5 @@
 # maildrop-api
-Wrapper module around [maildrop.cc](http://maildrop.cc) API.
+Wrapper module around [maildrop.cc](https://maildrop.cc) API.
 
 [![npm](https://img.shields.io/npm/v/maildrop-api.svg)](https://www.npmjs.com/package/maildrop-api)
 [![Travis](https://img.shields.io/travis/xrajishx/maildrop-api.svg)](https://travis-ci.org/xrajishx/maildrop-api)
