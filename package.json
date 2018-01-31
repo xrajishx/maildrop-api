@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "standard && nyc mocha",
-    "test-ci": "node_modules/.bin/standard && node_modules/.bin/nyc mocha && node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls",
+    "test-ci": "standard && nyc mocha && nyc report --reporter=text-lcov | coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
