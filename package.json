@@ -42,7 +42,7 @@
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^11.4.1",
     "semantic-release": "^12.4.1",
-    "standard": "^10.0.3"
+    "standard": "^11.0.0"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
