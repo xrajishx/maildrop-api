@@ -1,4 +1,6 @@
 # maildrop-api
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/xrajishx/maildrop-api.svg)](https://greenkeeper.io/)
 Wrapper module around [maildrop.cc](https://maildrop.cc) API.
 
 [![npm](https://img.shields.io/npm/v/maildrop-api.svg)](https://www.npmjs.com/package/maildrop-api)
