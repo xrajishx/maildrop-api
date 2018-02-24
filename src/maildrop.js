@@ -76,8 +76,8 @@ exports.deleteEmail = (mailBox, emailId) => {
   return new Promise((resolve, reject) => {
     if (!(mailBox && emailId)) {
       return reject(
-      new Error('mailBox and emailId required.')
-    )
+        new Error('mailBox and emailId required.')
+      )
     }
 
     let options = {

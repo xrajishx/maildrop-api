@@ -5,8 +5,8 @@
   "main": "src/maildrop.js",
   "scripts": {
     "commit": "git-cz",
-    "test": "standard && nyc mocha",
-    "test-ci": "standard && nyc mocha && nyc report --reporter=text-lcov | coveralls",
+    "test": "standard && nyc mocha --timeout 20000",
+    "test-ci": "standard && nyc mocha --timeout 20000 && nyc report --reporter=text-lcov | coveralls",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
