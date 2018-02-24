@@ -1,6 +1,5 @@
 # maildrop-api
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/xrajishx/maildrop-api.svg)](https://greenkeeper.io/)
 Wrapper module around [maildrop.cc](https://maildrop.cc) API.
 
 [![npm](https://img.shields.io/npm/v/maildrop-api.svg)](https://www.npmjs.com/package/maildrop-api)
@@ -8,6 +7,7 @@ Wrapper module around [maildrop.cc](https://maildrop.cc) API.
 [![Coverage Status](https://coveralls.io/repos/github/xrajishx/maildrop-api/badge.svg)](https://coveralls.io/github/xrajishx/maildrop-api)
 [![dependencies Status](https://david-dm.org/xrajishx/maildrop-api/status.svg)](https://david-dm.org/xrajishx/maildrop-api)
 [![devDependencies Status](https://david-dm.org/xrajishx/maildrop-api/dev-status.svg)](https://david-dm.org/xrajishx/maildrop-api?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/xrajishx/maildrop-api.svg)](https://greenkeeper.io/)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
