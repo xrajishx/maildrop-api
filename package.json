@@ -41,7 +41,7 @@
     "mocha": "^5.0.0",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^11.4.1",
-    "semantic-release": "^12.4.1",
+    "semantic-release": "^15.0.0",
     "standard": "^11.0.0"
   },
   "czConfig": {
